@@ -100,7 +100,7 @@
   }
   .card ul li {
     font-size: 0.875rem;
-  
+    margin: .5rem 0;
   }
 }
 
