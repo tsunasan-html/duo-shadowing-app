@@ -2,8 +2,9 @@
   position: relative;
   z-index: 1;
   border-radius: 10px;
-  padding: 4.5rem;
+  padding: 4rem;
   max-width: 1000px;
+  margin: 2rem;
   width: 100%;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.6); 
@@ -13,14 +14,14 @@
 
 .card h2 {
   letter-spacing: 1px;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 1.4;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 .card p {
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 1px;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .card ul {
   display: inline-block;
@@ -32,7 +33,7 @@
 .card ul li {
   letter-spacing: 1px;
   margin: .7rem 0;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .card ul li:first-child {
@@ -81,4 +82,26 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 767px) {
+  .word-content {
+    padding: 2rem;
+    width: 100%;
+    margin: 20px;
+  }
+  .card h2 {
+    font-size: 1.3125rem;
+  } 
+  .card p {
+    font-size: 1.0625rem;
+  }
+  .card ul {
+    padding-left: 0;
+  }
+  .card ul li {
+    font-size: 0.875rem;
+  
+  }
+}
+
 

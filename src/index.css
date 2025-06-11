@@ -24,3 +24,11 @@ li {
   font-family: 'Noto Sans JP', sans-serif;
   width: 180px;
 }
+
+@media (max-width: 767px) {
+  .button-base {
+     font-size: 0.875rem;
+    width: 40%;
+    padding: 0.6rem .8rem;
+  }
+}
