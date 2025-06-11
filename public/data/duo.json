@@ -105,6 +105,18 @@
       { "word": "stink = 臭う", "pos": "verb" },
       { "word": "shower = シャワー", "pos": "noun" }
     ]
+  },
+  {
+    "id": 10,
+    "english": "Bob was so beside himself that he could scarcely tell fact from fiction.",
+    "japanese": "ボブはひどく取り乱していて、現実と虚構の区別がほとんどできなかった。",
+    "words": [
+      { "word": "beside himself = 取り乱して", "pos": "phrase" },
+      { "word": "scarcely = ほとんど～ない", "pos": "adverb" },
+      { "word": "tell A from B = AとBを区別する", "pos": "phrase" },
+      { "word": "fact = 現実、事実", "pos": "noun" },
+      { "word": "fiction = 虚構、作り話", "pos": "noun" }
+    ]
   }
 ]
 
