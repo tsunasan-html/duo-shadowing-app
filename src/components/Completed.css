@@ -19,3 +19,11 @@
 .completed-button {
   margin-top: 1.75rem;
 }
+@media (max-width: 767px) {
+  .completed > div {
+    padding: 20px;
+  }
+  .completed p {
+    margin-top: 1rem;
+  }
+}

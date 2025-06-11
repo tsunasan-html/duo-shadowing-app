@@ -10,7 +10,6 @@ const WordList = () => {
   const [wordList, setWordList] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [bgImage, setBgImage] = useState('');
-  const [bgLoaded, setBgLoaded] = useState(false);
   const navigate = useNavigate(); 
 
   const url = "/data/duo.json";
@@ -45,19 +44,10 @@ const WordList = () => {
     img.src = imageUrl;
     img.onload = () => {
       setBgImage(imageUrl);
-      setBgLoaded(true);
     };
   }, []);
 
   const currentItem = wordList[currentIndex];
-
-  if (!bgLoaded) {
-    return (
-      <div className="loading-screen">
-        <div className="spinner"></div>
-      </div>
-    );
-  }
 
   return (
     <Background bgImage={bgImage}>
