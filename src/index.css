@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --spacing-default: 2rem;
+}
+body {
+  background-color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+li {
+  list-style: none;
+}
+
+.button-base {
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  letter-spacing: 1px;
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 180px;
+}

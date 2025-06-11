@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "english": "We must respect will of the individual.",
+    "japanese": "個人の意思は尊重しなければいけない。",
+    "words": [
+      { "word": "respect = ～を尊重する", "pos": "verb" },
+      { "word": "will = 意思／意志", "pos": "noun" },
+      { "word": "individual = 個人", "pos": "noun" },
+      { "word": "must = ～しなければならない", "pos": "modal verb" },
+      { "word": "we = 私たち", "pos": "pronoun" }
+    ]
+  },
+  {
+    "id": 2,
+    "english": "Take it easy. I can assure you that everything will turn out fine.",
+    "japanese": "気楽にいけよ。大丈夫、すべてうまくいくさ。",
+    "words": [
+      { "word": "take it easy = 気楽にやれ", "pos": "expression" },
+      { "word": "assure = ～を保証する", "pos": "verb" },
+      { "word": "everything = すべてのこと", "pos": "pronoun" },
+      { "word": "turn out = 結果として～になる", "pos": "phrasal verb" },
+      { "word": "fine = 問題ない／うまくいく", "pos": "adjective" }
+    ]
+  },
+  {
+    "id": 3,
+    "english": "Let go of your negative outlook on life. Always maintain a positive attitude.",
+    "japanese": "悲観的な人生観を捨てて、前向きな態度を常に保ち続けよう。",
+    "words": [
+      { "word": "let go of = ～を離す／捨てる", "pos": "phrasal verb" },
+      { "word": "negative = 否定的な／悲観的な", "pos": "adjective" },
+      { "word": "outlook = 人生観／考え方", "pos": "noun" },
+      { "word": "maintain = を維持する", "pos": "verb" },
+      { "word": "attitude = 態度", "pos": "noun" }
+    ]
+  },
+  {
+    "id": 4,
+    "english": "You should be fair to everyone regardless of national origin, gender or creed.",
+    "japanese": "生まれた国、性別、信条に関係なく、誰に対しても公平でならなくてはならない。",
+    "words": [
+      { "word": "fair = 公平な", "pos": "adjective" },
+      { "word": "regardless of = にかかわらず", "pos": "phrase" },
+      { "word": "national origin = 国の／国内の,", "pos": "noun" },
+      { "word": "gender = 性別", "pos": "noun" },
+      { "word": "creed = 信条", "pos": "noun" }
+    ]
+  },
+  {
+    "id": 5,
+    "english": "Equality is guaranteed by the Constitution.",
+    "japanese": "平等は憲法で守られている。",
+    "words": [
+      { "word": "equality = 平等", "pos": "noun" },
+      { "word": "guaranteed = 保証する", "pos": "verb" },
+      { "word": "Constitution = 憲法", "pos": "noun" }
+    ]
+  },
+  {
+    "id": 6,
+    "english": "He leaned against the pillar and gazed at the Statue of Liberty.",
+    "japanese": "彼は柱に寄りかかって、自由の女神像をじっと見つめた。",
+    "words": [
+      { "word": "leaned = 寄りかかった", "pos": "verb" },
+      { "word": "against = ～に寄りかかって", "pos": "preposition" },
+      { "word": "pillar = 柱", "pos": "noun" },
+      { "word": "gazed at = ～をじっと見つめた", "pos": "phrasal verb" },
+      { "word": "Statue of Liberty = 自由の女神像", "pos": "proper noun" }
+    ]
+  },
+  {
+    "id": 7,
+    "english": "A woman passed by me, giving off a subtle scent of perfume. It reminded me of my ex-girlfriend.",
+    "japanese": "香水のほのかな香りを漂わせながら、一人の女性が僕の前を通り過ぎた。前の彼女のことを思い出してしまった。",
+    "words": [
+      { "word": "passed by = 通り過ぎた", "pos": "phrasal verb" },
+      { "word": "give off = （香り・光などを）発する", "pos": "phrasal verb" },
+      { "word": "subtle = かすかな、ほのかな", "pos": "adjective" },
+      { "word": "scent = 香り", "pos": "noun" },
+      { "word": "reminded = 思い出させた", "pos": "verb (past)" },
+      { "word": "ex-girlfriend = 元カノ", "pos": "noun" }
+    ]
+  },
+  {
+    "id": 8,
+    "english": "\"Natto\" smells awful but tastes terrific.",
+    "japanese": "納豆は臭いはひどいけれど味は最高。",
+    "words": [
+      { "word": "smell = ～のにおいがする", "pos": "verb" },
+      { "word": "awful = ひどい", "pos": "adjective" },
+      { "word": "taste = ～の味がする", "pos": "verb" },
+      { "word": "terrific = 素晴らしい", "pos": "adjective" },
+      { "word": "Natto = 納豆（日本の発酵食品）", "pos": "noun" }
+    ]
+  },
+  {
+    "id": 9,
+    "english": "\"I'm soaked with sweat.\" \"Stand back! You stink. Take a shower.\"",
+    "japanese": "「汗でびしょぬれだよ。」「下がって！臭いよ。シャワー浴びて。」",
+    "words": [
+      { "word": "soaked = びしょぬれの", "pos": "adjective" },
+      { "word": "sweat = 汗", "pos": "noun" },
+      { "word": "stand back = 離れて", "pos": "phrasal verb" },
+      { "word": "stink = 臭う", "pos": "verb" },
+      { "word": "shower = シャワー", "pos": "noun" }
+    ]
+  }
+]
+

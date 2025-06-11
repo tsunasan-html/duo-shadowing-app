@@ -1,0 +1,18 @@
+
+.completed {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+.completed > p {
+  margin-top: .65rem;
+}
+.completed-button {
+  margin-top: 1.75rem;
+}

@@ -1,0 +1,31 @@
+.speaker-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  margin: 2rem auto 1rem;
+}
+.speak-button {
+  background: rgba(255, 249, 196, 0.1);
+  border: white 1px solid;
+}
+
+.speak-button:hover {
+opacity: .8;
+}
+
+.rate-control {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.rate-label {
+  font-weight: bold;
+}
+
+.rate-slider {
+  vertical-align: middle;
+}
