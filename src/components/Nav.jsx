@@ -5,7 +5,6 @@ import { faLeftLong, faRightLong } from '@fortawesome/free-solid-svg-icons';
 const Nav = ({ currentIndex, setCurrentIndex, total }) => {
 
   const nextItem = () => {
-    // ✅ 「total - 1」ではなく、「total」未満で制限しない → 1つ先へ進める
     if (currentIndex < total) {
       setCurrentIndex(prev => prev + 1);
     }
@@ -31,7 +30,6 @@ const Nav = ({ currentIndex, setCurrentIndex, total }) => {
       <button
         className="button-base nav-button"
         onClick={nextItem}
-        // ✅ ここを「currentIndex === total - 1」ではなく「currentIndex >= total」で無効に
         disabled={currentIndex >= total}
         style={{ marginLeft: '1rem' }}
       >

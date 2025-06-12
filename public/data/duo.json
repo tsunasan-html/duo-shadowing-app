@@ -129,6 +129,54 @@
       { "word": "gift = 才能", "pos": "noun" },
       { "word": "be published = 出版される", "pos": "verb (passive)" }
     ]
+  },
+  {
+    "id": 12,
+    "english": "An up-to-date edition of the encyclopedia will come out next month.",
+    "japanese": "来月、その百科事典の最新版が出る。",
+    "words": [
+      { "word": "up-to-date = 最新の", "pos": "adjective" },
+      { "word": "edition = 版", "pos": "noun" },
+      { "word": "encyclopedia = 百科事典", "pos": "noun" },
+      { "word": "come out = 出版される、出る", "pos": "phrasal verb" },
+      { "word": "next month = 来月", "pos": "adverbial phrase" }
+    ]
+  },
+  {
+    "id": 13,
+    "english": "Ms Yamada translated the fascinating fairy tale into plain Japanese.",
+    "japanese": "山田さんがその心ひかれるおとぎ話をやさしい日本語に翻訳した。",
+    "words": [
+      { "word": "translate = 翻訳する", "pos": "verb" },
+      { "word": "fascinating = 魅力的な、心ひかれる", "pos": "adjective" },
+      { "word": "fairy tale = おとぎ話", "pos": "noun" },
+      { "word": "plain = わかりやすい、平易な", "pos": "adjective" },
+      { "word": "into = ～に（変換・変化を示す）", "pos": "preposition" }
+    ]
+  },
+  {
+    "id": 14,
+    "english": "The following passage is quoted from a well-known fable.",
+    "japanese": "以下の一節は有名な寓話からの引用です。",
+    "words": [
+      { "word": "following = 次の、以下の", "pos": "adjective" },
+      { "word": "passage = 一節、文章", "pos": "noun" },
+      { "word": "quote = 引用する", "pos": "verb" },
+      { "word": "well-known = 有名な", "pos": "adjective" },
+      { "word": "fable = 寓話", "pos": "noun" }
+    ]
+  },
+  {
+    "id": 15,
+    "english": "Are you familiar with contemporary literature? I know next to nothing about it.",
+    "japanese": "現代文学に詳しいですか？ ほとんど知りません。",
+    "words": [
+      { "word": "be familiar with = ～に詳しい、精通している", "pos": "phrase" },
+      { "word": "contemporary = 現代の", "pos": "adjective" },
+      { "word": "literature = 文学", "pos": "noun" },
+      { "word": "know next to nothing = ほとんど何も知らない", "pos": "phrase" },
+      { "word": "about = ～について", "pos": "preposition" }
+    ]
   }
 ]
 
