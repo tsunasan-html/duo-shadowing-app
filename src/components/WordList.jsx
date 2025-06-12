@@ -33,6 +33,7 @@ const WordList = () => {
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
+        // console.log('data確認用:', data);
         const shuffled = shuffleArray(data);
         const selected = shuffled.slice(0, 10);
         setWordList(selected);
@@ -46,6 +47,19 @@ const WordList = () => {
       setBgImage(imageUrl);
     };
   }, []);
+
+  const handleNavigation = (direction) => {
+    speechSynthesis.cancel();
+
+    setCurrentIndex((prevIndex) => {
+      if (direction === 'next' && prevIndex < wordList.length) {
+        return prevIndex + 1;
+      } else if (direction === 'prev' && prevIndex > 0) {
+        return prevIndex - 1;
+      }
+      return prevIndex;
+    });
+  };
 
   const currentItem = wordList[currentIndex];
 
@@ -67,8 +81,8 @@ const WordList = () => {
               </ul>
               <Nav
                 currentIndex={currentIndex}
-                setCurrentIndex={setCurrentIndex}
                 total={wordList.length}
+                onNavigate={handleNavigation}
               />
             </div>
           ) : (

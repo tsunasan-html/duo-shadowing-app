@@ -177,6 +177,52 @@
       { "word": "know next to nothing = ほとんど何も知らない", "pos": "phrase" },
       { "word": "about = ～について", "pos": "preposition" }
     ]
+  },
+  {
+    "id": 16,
+    "english": "At times I confuse 'curve' with 'carve'.",
+    "japanese": "時々、「curve」と「carve」を混同してしまう。",
+    "words": [
+      { "word": "at times = 時々", "pos": "phrase" },
+      { "word": "confuse A with B = AとBを混同する", "pos": "phrase" },
+      { "word": "curve = 曲線", "pos": "noun" },
+      { "word": "carve = 彫る、刻む", "pos": "verb" }
+    ]
+  },
+  {
+    "id": 17,
+    "english": "Don't be shy. Your pronunciation is more or less correct.",
+    "japanese": "恥ずかしがらないで。あなたの発音はだいたい合っています。",
+    "words": [
+      { "word": "don't be shy = 恥ずかしがらないで", "pos": "phrase" },
+      { "word": "pronunciation = 発音", "pos": "noun" },
+      { "word": "more or less = だいたい", "pos": "phrase" },
+      { "word": "correct = 正しい", "pos": "adjective" }
+    ]
+  },
+  {
+    "id": 18,
+    "english": "This article contains tips for those who are eager to increase their vocabulary.",
+    "japanese": "この記事には語彙を本気で増やしたいと思う人々に役に立つ情報が含まれています。",
+    "words": [
+      { "word": "article = 記事", "pos": "noun" },
+      { "word": "contain = 含む", "pos": "verb" },
+      { "word": "tip = 助言、ヒント", "pos": "noun" },
+      { "word": "eager to = ～したいと強く願う", "pos": "phrase" },
+      { "word": "vocabulary = 語彙", "pos": "noun" }
+    ]
+  },
+  {
+    "id": 19,
+    "english": "His latest works are on display at the city hall. They are fabulous beyond description.",
+    "japanese": "彼の最新の作品が市庁舎で展示されているの。言葉にできないほど素敵よ。",
+    "words": [
+      { "word": "latest = 最新の", "pos": "adjective" },
+      { "word": "on display = 展示されている", "pos": "phrase" },
+      { "word": "city hall = 市庁舎", "pos": "noun" },
+      { "word": "fabulous = とても素晴らしい", "pos": "adjective" },
+      { "word": "beyond description = 言葉で表せないほど", "pos": "phrase" }
+    ]
   }
 ]
 

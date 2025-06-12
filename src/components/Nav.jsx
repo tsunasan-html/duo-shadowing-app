@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLeftLong, faRightLong } from '@fortawesome/free-solid-svg-icons';
 
-const Nav = ({ currentIndex, setCurrentIndex, total }) => {
+const Nav = ({ currentIndex, total, onNavigate }) => {
 
   const nextItem = () => {
     if (currentIndex < total) {
@@ -20,7 +20,7 @@ const Nav = ({ currentIndex, setCurrentIndex, total }) => {
     <div className="nav">
       <button
         className="button-base nav-button"
-        onClick={prevItem}
+  onClick={() => onNavigate('prev')}
         disabled={currentIndex === 0}
       >
         <FontAwesomeIcon icon={faLeftLong} style={{ marginRight: '0.5rem' }} />
@@ -29,7 +29,7 @@ const Nav = ({ currentIndex, setCurrentIndex, total }) => {
 
       <button
         className="button-base nav-button"
-        onClick={nextItem}
+        onClick={() => onNavigate('next')}
         disabled={currentIndex >= total}
         style={{ marginLeft: '1rem' }}
       >
